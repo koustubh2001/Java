@@ -33,6 +33,40 @@ public class RemoveDuplicate {
 
 
 
+// import java.util.*;
+// class Main {
+//     	public static List<Integer> removeDuplicates(List<Integer> inputList) {
+//        	 List<Integer> result = new ArrayList<>();
+//       	  for (int num : inputList) {
+//             if (!result.contains(num)) {
+//                 result.add(num);
+//             }}
+//         return result;
+//  	   } 
+//         public static void main(String[] args) {
+//         List<Integer> inputList = Arrays.asList(1,2,2,3,4,4,5,6,6,7);
+//         List<Integer> result = removeDuplicates(inputList);
+//         System.out.println(result);
+//        }}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
