@@ -1,0 +1,21 @@
+1. Library Management System
+
+Features:
+
+• Manage books (add, update, delete, search).
+• Track borrowers and their borrowing history.
+• Allow users to borrow and return books.
+
+Rules:
+
+• A book can only be borrowed if it is available.
+• A member can borrow a maximum of 5 books at a time.
+• Borrowed books must be returned within 15 days.
+
+Classes:
+
+• Book: Represents book details like title, author, ISBN, and availability.
+• Member: Represents a library member with attributes like name, ID, and borrowing 
+history.
+• Library: Handles operations like adding/removing books, searching, and managing 
+borrow/return actions.
