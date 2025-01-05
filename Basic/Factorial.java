@@ -7,8 +7,13 @@ public class Factorial {
         Scanner scan=new Scanner (System.in);
         System.out.println("Enter a Number");
         int num=scan.nextInt();
-        int Factorial=0;
-        
+        int Factorial=1;
+        for(int i=1;i<=num;i++)
+        {
+            Factorial=Factorial*i;
+        }
+        System.out.println(Factorial);  
+
     }
     
 }
