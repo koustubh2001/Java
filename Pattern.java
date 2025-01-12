@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Pattern {
     public static void main(String[] args) {
 //  Rotate an array to the right by k positions.
@@ -13,7 +15,7 @@ public class Pattern {
               arr[0]=last;
              
           }
-          System.out.println(arr);
+          System.out.println(Arrays.toString(arr));
           
     // int[] arr = {1, 2, 3, 4, 5};
     // int k = 2;
