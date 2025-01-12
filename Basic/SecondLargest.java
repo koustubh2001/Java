@@ -19,6 +19,10 @@ public class SecondLargest {    public static void main(String[] args) {
             secondLargest = num;
              
         }
+        else
+        {
+            System.out.println("invalid number");
+        }
          
     }
     System.out.println(secondLargest); 
